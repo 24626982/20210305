@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <style type="text/css">
+    .fontdiv{
+    width: 897px;
+    text-align: center;
+    margin:0 auto;
+}
+.KUdiv{
+    width: 897px;
+    text-align: center;
+    margin:0 auto;
+    border:3px solid blanchedalmond;
+}
+.EMdiv{
+    width: 897px;
+    text-align: center;
+    margin:0 auto;
+    border:3px solid cadetblue;
+}
+.body{
+    background-color: pink;
+}
+/*----我好牛逼-----*/
+/*漫畫*/
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-6 {
+    background: rgb(247,150,192);
+  background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-6 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-6:before,
+  .btn-6:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 1px;
+   box-shadow:
+     -1px -1px 20px 0px rgba(255,255,255,1),
+     -4px -4px 5px 0px rgba(255,255,255,1),
+     7px 7px 20px 0px rgba(0,0,0,.4),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+  }
+  .btn-6:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+  }
+  .btn-6:after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+  }
+  .btn-6:hover{
+    background: transparent;
+    color: #76aef1;
+    box-shadow: none;
+  }
+  .btn-6:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  .btn-6:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  .btn-6 span:before,
+  .btn-6 span:after {
+    position: absolute;
+    content: "";
+    box-shadow:
+     -1px -1px 20px 0px rgba(255,255,255,1),
+     -4px -4px 5px 0px rgba(255,255,255,1),
+     7px 7px 20px 0px rgba(0,0,0,.4),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+  }
+  .btn-6 span:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+  }
+  .btn-6 span:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+  }
+  .btn-6 span:hover:before {
+    width: 100%;
+  }
+  .btn-6 span:hover:after {
+    width: 100%;
+  }
+  /*動畫*/
+  .btn-9 {
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  .btn-9:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    transition: all 0.3s ease;
+  }
+  .btn-9:hover {
+    background: transparent;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    color: #fff;
+  }
+  .btn-9:hover:after {
+    -webkit-transform: scale(2) rotate(180deg);
+    transform: scale(2) rotate(180deg);
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  }
+  /*作者*/
+  .btn-15 {
+    background: #b621fe;
+    border: none;
+    z-index: 1;
+  }
+  .btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn-15:hover {
+    color: #fff;
+  }
+  .btn-15:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-15:active {
+    top: 2px;
+  }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>堀與宮村</title>
+  </head>
+  <body class="body">
+    <div class="text-center">
+        <img src="P2.jpg" alt="" width="897px" height="640px">
+        <br></br>
+    </div>
+    <div class="fontdiv">
+        <h2>作品簡介</h2>
+        <p>「堀與宮村」原為日本漫畫家HERO在2007年於自己網站上連載的校園喜劇漫畫，後於2011年10月開始在雜誌《月刊GFantasy》以「堀與宮村」（ホリミヤ）為標題連載重製版，並由萩原ダイスケ負責作畫。描述班上第一受歡迎的女生「堀」與性格陰暗的「宮村」之間的酸甜愛情，以及圍繞於兩人之間性格豐富的朋友們的校園日常。堀與宮村兩人間的安定夫婦感，以及出其不意的甜滋滋片段，加上討喜的配角群，吸引了大量粉絲，系列更累計販售超越570萬冊。</p>
+        <br></br>
+        <h2>故事簡介</h2>
+        <p>長得漂亮、成績又優秀的堀京子在學校裡就像是班級中心的存在，</p>
+        <p>不過其實是放學後就直接回家，代替工作忙碌的父母做家事及照顧年幼弟弟的勤勉高中生。</p>
+        <p>一天，受了傷的弟弟創太被陌生的男子送回家</p>
+        <p>『堀同學』</p>
+        <p>被這樣叫了後一聊之下才發現對方竟然是班上的――</p>
+        <p>受歡迎的女生與性格陰暗的男生相遇後…！？</p>
+        <p>愛情、友情</p>
+        <p>充滿青春、酸甜又帶點揪心的超微碳酸系校園生活登場！</p>
+    </div>
+    <div class="KUdiv">
+        <img src="KU.png" class="mr-3" alt="...">
+        <div class="media-body">
+          <h1 class="mt-0">堀京子</h1>
+          <p>不僅漂亮、成績又優秀，在班上不管是男同學還是女同學都非常仰慕她。</p>
+          <p>不過，在家總是素顏又樸素，代替工作忙碌的父母做家事並照顧年幼的弟弟。</p>
+        </div>
+    </div>
+    <br></br>
+    <div class="EMdiv">
+        <img src="EM.png" class="mr-3" alt="...">
+        <div class="media-body">
+          <h1 class="mt-0">宮村伊澄</h1>
+          <p>留長髮、戴眼鏡、不怎麼說話…在學校被認為是土氣的宅男。</p>
+          <p>其實是既戴著耳環身上又有刺青的美男子，意外的還有嘴巴很壞的一面…？！</p>
+        </div>
+    </div>
+    <br></br>
+    <div class="fontdiv">
+        <button class="custom-btn btn-6" onclick="location.href='https://tw.manhuagui.com/comic/4359/'"><span>看漫畫</span></button>
+        <button class="custom-btn btn-9" onclick="location.href='https://ani.gamer.com.tw/animeVideo.php?sn=20612'">看動畫</button>
+        <button class="custom-btn btn-15"onclick="location.href='https://twitter.com/dka_hero'" >找作者</button>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
